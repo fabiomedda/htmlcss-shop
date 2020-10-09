@@ -15,13 +15,22 @@ section
   display: inline-block;
 }
 
+.bg_green
+{
+  background-color: green;
+}
+
+.bg_red
+{
+  background-color: red;
+}
+
 span
 {
   position: absolute;
   top: 0;
   right: 0;
   font-size: 25px;
-  background: green;
 }
 
 i
