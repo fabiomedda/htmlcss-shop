@@ -1,0 +1,38 @@
+body
+{
+  text-align: center;
+}
+
+
+.box
+{
+  position: relative;
+  width: 300px;
+  display: inline-block;
+}
+
+span
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  background: green;
+}
+
+i
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  color: red;
+  font-size: 40px;
+}
+
+.opacity:hover > i
+{
+  opacity: 1;
+}
